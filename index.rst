@@ -13,6 +13,8 @@ In this tutorial, we will be looking at how to get started with nanome, includin
 Installation
 _____________________
 _____________________
+
+
 If you are using a mac, you will need to install Anaconda[(https://www.anaconda.com/)] to do the following in this tutorial. If you are on a windows, please install 
 PUTTY [(https://www.putty.org/)] or MobaX [(https://mobaxterm.mobatek.net/download-home-edition.html]) as well as Anaconda
 
