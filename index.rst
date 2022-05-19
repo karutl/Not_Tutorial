@@ -19,6 +19,7 @@ PUTTY [(https://www.putty.org/)] or MobaX [(https://mobaxterm.mobatek.net/downlo
 On a mac:
 
 Please type the following in your anaconda terminal:
+
 conda install -c conda-forge -c bioconda nextflow
 
 On a windows:
@@ -49,13 +50,14 @@ __________________________
 Quickstart - cloud computing platform
 ____________________________________
 ___________________________________
-Quickstart - QC Analysis
-_________________________
-________________________
 
-Helping us debug NANOME
-________________________
-________________________
+Quickstart - QC Analysis
+_______________________________
+_______________________________
+
+Help us Debug NANOME
+______________________________
+______________________________
 
 Manual
 _______________________
