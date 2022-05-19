@@ -27,6 +27,8 @@ Please use the PUTTY or MobaX terminal that you downloaded and type this command
 
 wget -qO- https://get.nextflow.io | bash
 
+
+
 On windows, the command typed above on anaconda might not always work with windows! Therefore, installation on hpc might be required.
 This command is used to download nextflow on the hpc! 
 
