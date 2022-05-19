@@ -40,9 +40,6 @@ wget http://s3.climb.ac.uk/nanopolish_tutorial/ecoli_2kb_region.tar.gz
 tar -xvf ecoli_2kb_region.tar.gz
 cd ecoli_2kb_region
 
-
-
-
 Quickstart - human
 _________________________
 __________________________
@@ -50,9 +47,7 @@ __________________________
 Quickstart - cloud computing platform
 ____________________________________
 ___________________________________
-Quickstart - QC analysis
-___________________________
-___________________________
+
 Helping us debug NANOME
 ________________________
 ________________________
