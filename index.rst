@@ -12,7 +12,7 @@ In this tutorial, we will be looking at how to get started with nanome, includin
 
 
 
-If you are using a mac, you will need to install Anaconda[(https://www.anaconda.com/)] to do the following in this tutorial. If you are on a windows, please install 
+If you are using a mac, you will need to install Anaconda ([https://www.anaconda.com/)] to do the following in this tutorial. If you are on a windows, please install 
 PUTTY [(https://www.putty.org/)] or MobaX [(https://mobaxterm.mobatek.net/download-home-edition.html]) as well as Anaconda
 
 
@@ -25,17 +25,17 @@ On a mac:
 
 Please type the following in your anaconda terminal:
 
-conda install -c conda-forge -c bioconda nextflow
+``conda install -c conda-forge -c bioconda nextflow``
 
 On a windows:
 
 Please use the PUTTY or MobaX terminal that you downloaded and type this command:
 
-wget -qO- https://get.nextflow.io | bash
+``wget -qO- https://get.nextflow.io | bash``
 
 
 
-On windows, the command typed above on anaconda might not always work with windows! Therefore, installation on hpc might be required.
+On windows, the "conda" command might not always work with windows! Therefore, installation on hpc might be required.
 This command is used to download nextflow on the hpc! 
 
 Quickstart - ecoli
@@ -44,9 +44,9 @@ _______________________
 
 In your terminal, please download this ecoli dataset:
 
-wget http://s3.climb.ac.uk/nanopolish_tutorial/ecoli_2kb_region.tar.gz
+`wget http://s3.climb.ac.uk/nanopolish_tutorial/ecoli_2kb_region.tar.gz
 tar -xvf ecoli_2kb_region.tar.gz
-cd ecoli_2kb_region
+cd ecoli_2kb_region`
 
 Quickstart - human
 _________________________
