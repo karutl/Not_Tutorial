@@ -44,9 +44,9 @@ _______________________
 
 In your terminal, please download this ecoli dataset:
 
-`wget http://s3.climb.ac.uk/nanopolish_tutorial/ecoli_2kb_region.tar.gz
+``wget http://s3.climb.ac.uk/nanopolish_tutorial/ecoli_2kb_region.tar.gz
 tar -xvf ecoli_2kb_region.tar.gz
-cd ecoli_2kb_region`
+cd ecoli_2kb_region``
 
 Quickstart - human
 _________________________
