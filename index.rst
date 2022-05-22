@@ -31,7 +31,9 @@ On a windows:
 
 Please use the PUTTY or MobaX terminal that you downloaded and type this command:
 
-`wget -qO- https://get.nextflow.io | bash`
+.. code-block:: console
+
+``wget -qO- https://get.nextflow.io | bash``
 
 
 
@@ -42,19 +44,27 @@ Quickstart - ecoli
 _______________________
 _______________________
 
-In your terminal, please download this ecoli dataset:
+In this section, you will be using your terminal to download and analyze ecoli data. You can analyze this dataset in conda, hpc, or other terminals. 
 
-`wget http://s3.climb.ac.uk/nanopolish_tutorial/ecoli_2kb_region.tar.gz
-tar -xvf ecoli_2kb_region.tar.gz
-cd ecoli_2kb_region`
+Please type the following command below
+
 
 Quickstart - human
 _________________________
 __________________________
 
+In this section, we will be analyzing human data trough the terminals. Please enter the following command in your Anaconda prompt, PUTTY prompt, or MobaX Prompt:
+
+
+
 Quickstart - cloud computing platform
 ____________________________________
 ___________________________________
+
+In this section, we will be analyzing the Cloud Computing Platform for analyzing datasets.
+
+There are various cloud computing platforms. Two of them are Google Cloud and Lifebit Cloud Os. 
+We will be taking a look at analyzing data trough Lifebit Cloud OS. 
 
 Quickstart - QC Analysis
 _______________________________
