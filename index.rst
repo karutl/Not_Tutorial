@@ -12,8 +12,8 @@ In this tutorial, we will be looking at how to get started with nanome, includin
 
 
 
-If you are using a mac, you will need to install Anaconda ([https://www.anaconda.com/)] to do the following in this tutorial. If you are on a windows, please install 
-PUTTY [(https://www.putty.org/)] or MobaX [(https://mobaxterm.mobatek.net/download-home-edition.html]) as well as Anaconda
+If you are using a mac, you will need to install [Anaconda] (https://www.anaconda.com/) to do the following in this tutorial. If you are on a windows, please install 
+[PUTTY] (https://www.putty.org/) or [MobaX] (https://mobaxterm.mobatek.net/download-home-edition.html] as well as [Anaconda]
 
 
 Installation
@@ -31,13 +31,11 @@ On a windows:
 
 Please use the PUTTY or MobaX terminal that you downloaded and type this command:
 
-.. code-block:: console
-
-``wget -qO- https://get.nextflow.io | bash``
+`wget -qO- https://get.nextflow.io | bash`
 
 
 
-On windows, the "conda" command might not always work with windows! Therefore, installation on hpc might be required.
+On windows, the "conda" command might not always work! Therefore, installation on hpc might be required.
 This command is used to download nextflow on the hpc! 
 
 Quickstart - ecoli
@@ -63,8 +61,9 @@ ___________________________________
 
 In this section, we will be analyzing the Cloud Computing Platform for analyzing datasets.
 
-There are various cloud computing platforms. Two of them are Google Cloud and Lifebit Cloud Os. 
-We will be taking a look at analyzing data trough Lifebit Cloud OS. 
+There are various cloud computing platforms. One of them is Google Cloud Platform.
+
+Here, we will be taking a look at how to analyze data trough Google Cloud Platform.
 
 Quickstart - QC Analysis
 _______________________________
