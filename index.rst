@@ -12,8 +12,8 @@ In this tutorial, we will be looking at how to get started with nanome, includin
 
 
 
-If you are using a mac, you will need to install [Anaconda] (https://www.anaconda.com/) to do the following in this tutorial. If you are on a windows, please install 
-[PUTTY] (https://www.putty.org/) or [MobaX] (https://mobaxterm.mobatek.net/download-home-edition.html] as well as [Anaconda]
+If you are using a mac, you will need to install Anaconda (https://www.anaconda.com/) to do the following in this tutorial. If you are on a windows, please install 
+PUTTY (https://www.putty.org/) or MobaX (https://mobaxterm.mobatek.net/download-home-edition.html] as well as Anaconda
 
 
 Installation
@@ -25,13 +25,13 @@ On a mac:
 
 Please type the following in your anaconda terminal:
 
-`conda install -c conda-forge -c bioconda nextflow`
+``conda install -c conda-forge -c bioconda nextflow``
 
 On a windows:
 
 Please use the PUTTY or MobaX terminal that you downloaded and type this command:
 
-`wget -qO- https://get.nextflow.io | bash`
+``wget -qO- https://get.nextflow.io | bash``
 
 
 
@@ -65,6 +65,15 @@ There are various cloud computing platforms. One of them is Google Cloud Platfor
 
 Here, we will be taking a look at how to analyze data trough Google Cloud Platform.
 
+To start, please download the google API by accessing this link (https://anaconda.org/conda-forge/google-cloud-sdk) and type the following code in your anaconda terminal below: 
+
+``conda install -c conda-forge google-cloud-sdk``
+
+Then, authennticate by typing:
+
+gcloud auth login --no-launch-browser
+gcloud auth application-default login
+
 Quickstart - QC Analysis
 _______________________________
 _______________________________
@@ -92,3 +101,6 @@ PuTTY
 Anaconda
 
 "Quickstart - How to Polish a Genome Assembly" Nanopolish
+
+Yang Liu "Running Pipeline on Google Cloud Platform" https://github.com/LabShengLi/nanome/blob/master/docs/CloudComputing.md
+
